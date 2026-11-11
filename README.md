@@ -21,25 +21,6 @@ Primera entrega: obtención de insights a partir de visualizaciones.
 
 El notebook usa el endpoint público `https://www.kaggle.com/api/v1/datasets/download/gregorut/videogamesales`, guarda una copia local y compara los valores con la base original. La descarga se verificó el 10 de noviembre de 2026 y coincidió con el CSV aportado. La fecha de descarga no actualiza los datos históricos. La fuente original mantiene sus propios términos de uso.
 
-## Ejecución en Google Colab
-1. Abrir [Google Colab](https://colab.research.google.com/).
-2. Subir `PrimeraEntrega_DSII_Fetingis.ipynb`.
-3. En el panel Archivos del entorno, subir `dataset data science.csv`.
-4. Ejecutar todas las celdas en orden. La descarga de la fuente está activada.
-5. Si se trabaja sin internet y el CSV ya está presente, cambiar `DESCARGAR_FUENTE = False`.
-6. Descargar el notebook luego de ejecutar para conservar sus salidas.
-
-La base local se utiliza para mantener la versión analizada. La celda informa si falla la descarga o si una versión futura de la fuente es diferente. El proyecto no necesita claves de API.
-
-## Ejecución local
-Con Python 3.10 o superior y una terminal en la carpeta del proyecto:
-
-```bash
-python -m pip install -r requirements.txt
-python -m jupyterlab
-```
-
-Abrir el notebook y ejecutar las celdas de principio a fin. Las carpetas de resultados y gráficos se crean automáticamente.
 
 ## Metodología
 Adquisición pública y control de procedencia, inspección de metadata, normalización de tipos y textos, revisión de duplicados y faltantes, enriquecimiento con variables derivadas y EDA univariado, bivariado y multivariado. No se imputan años para el análisis temporal. El editor desconocido se etiqueta explícitamente. Los valores extremos se conservan y se analizan con medianas y escala logarítmica.
@@ -56,3 +37,7 @@ La unidad de análisis es el registro por juego y plataforma. Las ventas se expr
 
 ## Alcance de esta entrega
 El trabajo cubre adquisición, limpieza, visualizaciones e insights. La consigna general menciona Machine Learning, pero los requisitos base de esta primera entrega se centran en EDA. El notebook plantea el siguiente paso predictivo y los controles contra fuga de información, sin presentar modelos como entrenados.
+
+## Alcance de esta entrega
+Se deja el link adicinalmente de la carpeta de drive con los pdfs. 
+https://drive.google.com/drive/folders/1eRYceyObDiMohbg4iM-KcfEerkoU2yNV?usp=sharing
