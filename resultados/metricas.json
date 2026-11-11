@@ -1,0 +1,33 @@
+{
+  "filas": 16598,
+  "columnas_originales": 11,
+  "columnas_enriquecidas": 17,
+  "nombres": 11493,
+  "faltantes_year": 271,
+  "faltantes_publisher": 58,
+  "media": 0.5374406555006629,
+  "mediana": 0.17,
+  "tasa_1m": 12.537655139173395,
+  "cuota_top10": 58.8500118828219,
+  "cuota_2000": 52.0604364807117,
+  "cuota_nintendo": 20.027711637542538,
+  "rpg": {
+    "NA_Sales": 7.450118940575239,
+    "EU_Sales": 7.725963691339409,
+    "JP_Sales": 27.289275146783165,
+    "Other_Sales": 7.472265747414604
+  },
+  "cuotas_regionales": {
+    "NA_Sales": 49.271241665124464,
+    "EU_Sales": 27.301154685195467,
+    "JP_Sales": 14.480055182624199,
+    "Other_Sales": 8.94754846705586
+  },
+  "decadas": {
+    "1980": 376.58,
+    "1990": 1278.91,
+    "2000": 4644.02,
+    "2010": 2520.56,
+    "2020": 0.29
+  }
+}

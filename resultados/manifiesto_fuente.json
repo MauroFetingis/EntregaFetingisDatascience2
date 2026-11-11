@@ -1,0 +1,10 @@
+{
+  "archivo": "dataset data science.csv",
+  "fuente": "https://www.kaggle.com/api/v1/datasets/download/gregorut/videogamesales",
+  "fecha_verificacion_utc": "2026-11-10T10:55:10.395849+00:00",
+  "sha256_archivo": "e2076095ffcae2a92dbc6de6ecbd54455ee034bb38da550b2dc385e9265d4ebe",
+  "estado_descarga": "Descarga pública completada",
+  "coincidencia_con_copia_fuente": true,
+  "filas": 16598,
+  "columnas": 11
+}
